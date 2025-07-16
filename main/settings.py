@@ -50,10 +50,10 @@ MIDDLEWARE = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'your_db',
-        'USER': 'your_user',
-        'PASSWORD': 'your_password',
-        'HOST': 'localhost',
+        'NAME': 'phones_db',
+        'USER': 'postgres',
+        'PASSWORD': '1912',
+        'HOST': '127.0.0.1',
         'PORT': '5432',
         'OPTIONS': {
             'client_encoding': 'UTF8',  # Явно указываем кодировку
